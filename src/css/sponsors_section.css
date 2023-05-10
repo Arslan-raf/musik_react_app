@@ -1,0 +1,51 @@
+
+.sponsors_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sponsors_items img {
+    width: 170px;
+}
+
+.sponsors_title {
+    width: 250px;
+}
+
+.sponsors_items {
+    display: grid;
+
+    /* Три колонки */
+    grid-template-columns: auto auto auto auto;
+    /* Два ряда */
+    grid-template-rows: auto auto;
+    /* Автоматическое размещение в ряд */
+    grid-auto-flow: row;
+    /* Отступы между ячейками */
+    /* gap: 10px; */
+    row-gap: 80px;
+    column-gap: 130px;
+    align-items: center;
+    margin-bottom: 90px;
+    margin-top: 35px;
+}
+
+.sponsors_section {
+    position: relative;
+}
+
+.sponsors_section .pink_arrow {
+    position: absolute;
+    top: 160px;
+    right: 10px;
+}
+
+.sponsors_section .blue_triangle_with_dots {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 300px;
+    height: 170px;
+}

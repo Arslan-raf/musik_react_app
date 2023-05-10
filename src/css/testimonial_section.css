@@ -1,0 +1,96 @@
+.btns_testimonials{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    opacity: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+}
+
+.testimonials_slider_wrapper {
+    width: 100%;
+    max-width: 1960px;
+    height: 500px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+
+.testimonials_section {
+    margin-top: 200px;
+}
+
+.testimonials_title {
+    text-align: center;
+}
+
+
+.person-img {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+
+.autor_message {
+    padding: 50px 60px 110px;
+    text-align: center;
+    position: relative;
+    line-height: 24px;
+}
+
+.autor_message::before {
+    content: url("../img/quotation\ marks.png");
+    position: absolute;
+    left: 5%;
+    top: 12%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.autor_message::after {
+    content: url("../img/quotation\ marks.png");
+    transform: rotate(180deg);
+    position: absolute;
+    right: 5%;
+    bottom: 40%;
+}
+
+
+.message {
+    width: 770px;
+    height: 232px;
+    background-color: rgb(234, 234, 234);
+}
+
+.section-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    overflow: hidden;   
+}
+
+
+article.activeSlide{
+    opacity: 1;
+    transform: translateX(50%);
+}
+
+article.lastSlide{
+    display: none;
+    /* transform: translateX(0); */
+}
+
+article.nextSlide{
+    display: none;
+    /* transform: translateX(-100%); */
+}

@@ -1,0 +1,143 @@
+.table {
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    border-collapse: separate;
+}
+
+.table thead {
+    background-color: #d4cef8;
+    height: 120px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.table thead td {
+    border: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-top: 1px solid #d4cef8;
+}
+
+tbody td {
+    text-align: center;
+}
+
+.table tr td:first-child,
+.table tr td:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.table tr td:last-child,
+.table tr td:last-child {
+    border-right: 1px solid #ddd;
+}
+
+.table thead tr td:first-child {
+    border-radius: 20px 0 0 0;
+}
+
+.table thead tr td:last-child {
+    border-radius: 0 20px 0 0;
+}
+
+.table tbody td {
+    text-align: left;
+    border: none;
+    padding: 40px 40px;
+    vertical-align: top;
+}
+
+/* .table tbody tr:nth-child(even) {
+    background: #F8F8F8;
+} */
+
+.table tbody tr:last-child td {
+    border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 20px;
+}
+
+.table tbody tr:last-child td:last-child {
+    border-radius: 0 0 20px 0;
+}
+
+.time_speaker {
+    width: 250px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.content_speaker {
+    width: 370px;
+    font-weight: 700;
+}
+
+.last_kek {
+    width: 100px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.eventSchedule_days {
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.eventSchedule_day {
+    width: 370px;
+}
+
+.eventSchedule_day+.eventSchedule_day {
+    margin-left: 30px;
+}
+
+.eventSchedule_day_oppacity0 {
+    opacity: 0.5;
+}
+
+.hr-line {
+    background-color: #381DDB;
+    border: 0;
+    height: 1px;
+    margin-top: 20px;
+    box-sizing: content-box;
+    display: block;
+}
+
+.dDay {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    color: #381DDB;
+}
+
+.date {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #381DDB;
+    opacity: 0.5;
+}
+
+
+.sSpeaker {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.sSpeker_info {
+    display: flex;
+    flex-direction: column;
+
+}

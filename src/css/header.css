@@ -1,0 +1,138 @@
+
+.header {
+    /* background-image: url('../  /img/header-bg.png'); */
+    background-image: url('../img/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /*экран экрана*/
+    background-position: center;
+    /* position: relative; */
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.header_nav {
+    display: inherit;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.list {
+    display: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white_btn {
+    color: #381DDB;
+    background: #FFFFFF;
+}
+
+/*с сисним контуром*/
+.white_btn_2 {
+    color: #381DDB;
+    background: #FFFFFF;
+    border: 1px solid #381DDB;
+}
+
+.list {
+    margin-right: 50px;
+}
+
+.list_item+.list_item {
+    margin-left: 40px;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 105px 0 334px;
+}
+
+.header_content_first {
+    width: 970px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.header_content_title {
+    width: inherit;
+    height: 176px;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header_content_title span {
+    color: #FFA3A3;
+}
+
+.header_content_text {
+    width: inherit;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 40px;
+}
+
+.header_getStarted {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header_getStarted .red_btn {
+    background: #FC5252;
+    color: #FFFFFF;
+}
+
+.header_getStarted h4 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.timer {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 176px;
+    /* identical to box height */
+    text-align: center;
+    opacity: 0.5;
+    color: transparent;
+    /* прозрачный цвет букв */
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
+    margin-bottom: 32px;
+    overflow: auto;
+    user-select: none;
+}
+
+.timer__items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer__items p {
+    margin-right: 20px;
+}
+
