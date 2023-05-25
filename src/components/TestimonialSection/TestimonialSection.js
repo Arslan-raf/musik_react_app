@@ -5,6 +5,18 @@ import Avatar2 from '../../img/Avatar2.png'
 import Avatar1 from '../../img/Avatar1.png'
 
 export default function TestimonialSection() {
+
+    // useEffect(() => {
+    //     let xhr = new XMLHttpRequest();
+    //     xhr.open('GET', 'https://jsonplaceholder.typicode.com/photos?_limit=3');
+    //     xhr.responseType = 'json';
+    //     xhr.send();
+    //     xhr.onload = function () {
+    //         let response = xhr.response;
+    //         console.log(response);
+    //     };
+    // }, [])
+
     const data = [
         {
             id: 1,
@@ -33,7 +45,6 @@ export default function TestimonialSection() {
     const [currentIndex, setcurrentIndex] = useState(0);
 
     useEffect(() => {
-        //проверяем последний ли элемент
         const lastIndex = people.length - 1;
         if (currentIndex < 0) {
             setcurrentIndex(lastIndex);
@@ -44,12 +55,13 @@ export default function TestimonialSection() {
 
     }, [currentIndex, people]);
 
-   
+
     useEffect(() => {
         let slider = setInterval(() => setcurrentIndex(prevState => prevState + 1), 5000);
-        
+
         return () => { clearInterval(slider); }
     }, [currentIndex])
+
 
     return (
         <section className="testimonials_section">
@@ -73,7 +85,9 @@ export default function TestimonialSection() {
                                 <h4 className="">{name}</h4>
                                 <p className="testimonials_title">{title}</p>
                                 <div className="message">
-                                    <p className="autor_message">{quote}</p>
+                                    <p className="autor_message">
+                                        {quote}
+                                        </p>
                                 </div>
                             </article>
                         )

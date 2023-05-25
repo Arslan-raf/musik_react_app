@@ -2,6 +2,7 @@ import React from "react";
 import '../../css/header.css';
 import HeaderTop from "./HeaderTop";
 import Timer from "./Timer";
+import BackToTopButton from "../Header/BackToTopButton";
 
 export default function Header() {
 
@@ -40,6 +41,8 @@ export default function Header() {
                     <Timer />
                 </div>
             </div>
+
+            <BackToTopButton></BackToTopButton>
         </header>
 
     )

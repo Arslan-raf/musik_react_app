@@ -1,11 +1,17 @@
 import React, {useState} from "react";
-import MyModal from "../UI/MyModal/MyModal";
+
 
 export default function HeaderTop() {
 
 
-    const [modal, setModal] = useState(false);
-    
+    const scrollToPage = () =>{
+        console.log("adsad");
+        window.scrollTo({
+            top: 4750,
+            behavior:"smooth" //Элемент прокручивается плавно
+        })
+    }
+
     return (
         <div className="header_top">
             <a href="#">
@@ -47,11 +53,11 @@ export default function HeaderTop() {
                     </li>
                 </ul>
                 <button data-trigger className="white_btn" data-modal="get_tickets" id="myBtn"
-                    onClick={() => { setModal(true) }}>
+                    onClick={scrollToPage}
+                >
                     GET TICKETS
                 </button>
             </div>
-            <MyModal visible={modal} setVisible={setModal}/>
         </div>
     )
 }

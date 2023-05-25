@@ -20,24 +20,42 @@ export default function SponsorsSection() {
                     <h1 className="title sponsors_title">Our Sponsors</h1>
                     <div className="sponsors_items">
 
-                        <img src={google} alt="" />
-                        <img src= {microsoft} alt="" />
-                        <img src= {airbnb} alt="" />
-                        <img src= {axure}  alt="" />
+                        <a href="https://about.google/?utm_source=google-RU&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank"> <img src={google} alt="" /></a>
+                        <a href="https://www.microsoft.com/ru-ru" target="_blank"><img src={microsoft} alt="" /></a>
+                        <a href="https://www.airbnb.ru/" target="_blank"><img src={airbnb} alt="" /></a>
+                        <a href="https://www.axure.com/" target="_blank"><img src={axure} alt="" /></a>
 
 
-                        <img src= {apple} alt="" />
-                        <img src= {facebook} alt="" />
-                        <img src= {nokia} alt="" />
-                        <img src= {oracle} alt="" />
+                        <a href="https://www.apple.com/" target="_blank"><img src={apple} alt="" /></a>
+                        
+                        <div className="facebook">
+                            <a href="" target="_blank"><img src={facebook} alt="" />
+                                <div className="warning_wrapper">
+                                    <p className="warning_text">
+                                        *В соответствии с ч. 1 ст. 11 ФЗ от 01.07.2021 № 236-ФЗ «О деятельности иностранных
+                                        лиц в информационно-телекоммуникационной сети «Интернет» на территории Российской Федерации»,
+                                        Роскомнадзором принято решение об информировании пользователей en.wikipedia.org, что иностранное лицо,
+                                        владеющее информационным ресурсом, является нарушителем законодательства Российской Федерации.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="https://www.nokia.com/" target="_blank"><img src={nokia} alt="" /></a>
+                        <a href="https://www.oracle.com/" target="_blank"><img src={oracle} alt="" /></a>
 
                     </div>
+
                     <button className="blue_btn">Become a Sponsor</button>
                 </div>
             </div>
 
-            <img className="blue_triangle_with_dots" src= {blue_triangle_with_dots} alt="" />
+            <img className="blue_triangle_with_dots" src={blue_triangle_with_dots} alt="" />
             <img className="pink_arrow" src={pink_arrow} alt="" />
         </section>
     )
 }
+
+/*В соответствии с ч. 1 ст. 11 ФЗ от 01.07.2021 № 236-ФЗ «О деятельности иностранных 
+лиц в информационно-телекоммуникационной сети «Интернет» на территории Российской Федерации», 
+Роскомнадзором принято решение об информировании пользователей en.wikipedia.org, что иностранное лицо,
+ владеющее информационным ресурсом, является нарушителем законодательства Российской Федерации. */

@@ -104,6 +104,9 @@ tbody td {
 .eventSchedule_day_oppacity0 {
     opacity: 0.5;
 }
+.eventSchedule_day_oppacity1 {
+    opacity: 1;
+}
 
 .hr-line {
     background-color: #381DDB;
