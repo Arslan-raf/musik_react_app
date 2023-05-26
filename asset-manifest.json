@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/musik_react_app/static/css/main.e7312612.css",
+    "main.js": "/musik_react_app/static/js/main.0a237084.js",
+    "static/js/787.bcb5bc49.chunk.js": "/musik_react_app/static/js/787.bcb5bc49.chunk.js",
+    "static/media/header-bg.png": "/musik_react_app/static/media/header-bg.d6dab6c895fe0124ef92.png",
+    "static/media/best_shots_1.png": "/musik_react_app/static/media/best_shots_1.e00bd64c86df44857b72.png",
+    "static/media/best_shots_3.png": "/musik_react_app/static/media/best_shots_3.0e4b344646d0f0834e7d.png",
+    "static/media/best_shots_2.png": "/musik_react_app/static/media/best_shots_2.b7ebe36885f40f245352.png",
+    "static/media/about_musik.png": "/musik_react_app/static/media/about_musik.8b0fffef81d413cbe25f.png",
+    "static/media/singers_4.png": "/musik_react_app/static/media/singers_4.36f091f81aa3af494b6c.png",
+    "static/media/best_shots_4.png": "/musik_react_app/static/media/best_shots_4.3333bb759beed4e03df7.png",
+    "static/media/singers_2.png": "/musik_react_app/static/media/singers_2.993def983eefc9b86acc.png",
+    "static/media/best_shots_5.png": "/musik_react_app/static/media/best_shots_5.370e332ac99cb4e5ccac.png",
+    "static/media/singers_1.png": "/musik_react_app/static/media/singers_1.293de7c95b363c90f5a7.png",
+    "static/media/about_musik_bg.png": "/musik_react_app/static/media/about_musik_bg.41e06972b4afb61b308b.png",
+    "static/media/singers_3.png": "/musik_react_app/static/media/singers_3.707401181d0e1a234d18.png",
+    "static/media/Avatar2.png": "/musik_react_app/static/media/Avatar2.ce552a00c5f8ba2ded51.png",
+    "static/media/Avatar1.png": "/musik_react_app/static/media/Avatar1.203c326032e55b7ac4dd.png",
+    "static/media/Avatar3.png": "/musik_react_app/static/media/Avatar3.cb3597b6b240ed2a160e.png",
+    "static/media/Instagram.svg": "/musik_react_app/static/media/Instagram.b5f361305d7bf74821049153785525ec.svg",
+    "index.html": "/musik_react_app/index.html",
+    "main.e7312612.css.map": "/musik_react_app/static/css/main.e7312612.css.map",
+    "main.0a237084.js.map": "/musik_react_app/static/js/main.0a237084.js.map",
+    "787.bcb5bc49.chunk.js.map": "/musik_react_app/static/js/787.bcb5bc49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7312612.css",
+    "static/js/main.0a237084.js"
+  ]
+}
